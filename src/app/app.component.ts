@@ -12,14 +12,10 @@ export class AppComponent {
   constructor(private formBuilder: FormBuilder) {
     this.form = this.formBuilder.group({
       name: [""],
-      color: ["#ff0000"],
+
       password: [""],
-      age: [100],
-      date: [new Date()],
-      subscribe: [true],
-      memory: [32],
-      distance: [50],
-      region: ["south-america"]
+      age: [],
+      date: [new Date()]
     });
   }
 
